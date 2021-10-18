@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- METADATA -->
+    <!-- Skapa en titel för dokumentet -->
+    <title>Uppgifter i Vscode</title>
+    <!-- Skapa metadata som beskriver vem som har byggt hemsidan -->
+  <meta name="author" content="Aleks Magnusson tillsammans med Dannie Håkansson">
+    <!-- Skapa metadata som representerar en beskrivning av hemsidan -->
+  <meta name="description" content="Denna hemsida är övningar och uppgifter som ska göra programmeraren bättre på kod i HTML.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Övningar Grunder i HTML</h1>
+    <!-- Använd https://developer.mozilla.org/en-US/docs/Web/HTML/Element#usage_notes som referens för att bekanta er med element (även nya element) -->
+    <!-- PS: Kom ihåg att tänka på det semantiskt korrekta valet av element, och inte hur det ser ut 😍 -->
+
+    <!-- TEXT -->
+    <!-- Skapa alla (6) titlar som finns tillgängliga att använda -->
+    <div>
+      <h1>En av de viktigaste titlarna som blir huvudrubrik.</h1>
+      <h2>Sekundär rubrik som blir snarare brödtext.</h2>
+      <h3>Tredje texten som är mindre.</h3>
+      <h4>"h4" som blir mindre och mindre.</h4>
+      <h5>Texten blir bara mindre och mindre.</h5>
+      <h6>Denna textrad som är den minsta texten.</h6>
+  </div>
+    <!-- Skapa en paragraf av så pass mycket text att en radbrytning sker (minska och öka viewport/fönstret för att åstadkomma detta vid behov) -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Dolorem culpa amet labore facilis aliquam reiciendis.
+    </p>
+    <!-- Skapa ett citat (OBS: det är ett element ni inte hört om än) -->
+    <p> <q>My mama always said, ‘Life was like a box of chocolates. You never know what you’re gonna get.</q> - Forrest Gump </p>
+
+    <p> <blockquote>You are gonna slay ‘em dead</blockquote> - Steve Harrington </p>
+    <!-- Skapa en text som visas som kod (OBS: det är ett element ni inte hört om än) -->
+<code> Denna text är skriven som en kod. </code>
+    <!-- Skapa ett valfritt element med text blandat med massor av blanksteg/tomrum. Notera hur det visas i webbläsaren -->
+<pre>
+Lorem ipsum,    dolor sit     amet consectetur    adipisicing elit.
+Tempora suscipit neque    cumque possimus    nisi
+deserunt obcaecati placeat.     Debitis, tempora. Labore?
+</pre>
+    <!-- LÄNKAR -->
+    <!-- Skapa en länk som går till google.com -->
+    <a href="https://www.google.com/">Google</a>
+    <!-- Skapa en länk som hamnar under den första länken (från lösning 1). Se om du kan komma på fler än en lösning på problemet.  -->
+    <br>
+    <a href="https://www.youtube.com/" target="blank"> Youtube </a>
+    <br>
+    <!-- BILDER -->
+    <!-- Skapa en bild från valfri källa från nätet -->
+    <img src="https://cdn130.picsart.com/317122950002201.jpg?type=webp&to=min&r=640" width="300px" alt="E-girl Mania">
+    <br>
+    <!-- Skapa bild från valfri källa från nätet, med en bredd av 300 pixlar -->
+    <img src="https://www.thesun.co.uk/wp-content/uploads/2021/01/NINTCHDBPICT000503165569.jpg" width="300px">
+    <!-- Skapa en bild från valfri källa från nätet, med en höjd av 100 pixlar -->
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/SingleCoverForEGirlsAreRuiningMyLifeByCorpseAndSavageGasp.png" height="300px">
+    <!-- NESTANDE -->
+    <!-- Skapa en paragraf av text där ett av orden har en semantiskt starkare betydelse/vikt än den övriga texten i paragrafen -->
+    <p>Lorem ipsum dolor sit amet consectetur  adipisicing <strong>elit</strong>. Ad voluptates maiores inventore, minus hic modi.</p>
+    <!-- Skapa en valfri "parent > child > child > child > child" struktur (alltså en nivå av element som går 5 nivåer djupt inklusive föräldern) -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+    </head>
+    <body>
+      
+    </body>
+    </html>
+
+    <!--Dessa två (ovan och nedanför) är två olika förslag-->
+
+    <article>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, recusandae?
+      </p>  
+    </article>
+
+    <!-- LISTOR -->
+    <!-- Skapa en numrerad lista av 3 element -->
+    <ol>
+      <li> Objekt 1 </li>
+      <li> Objekt 2 </li>
+      <li> Objekt 3 </li>
+    </ol>
+    <!-- Skapa en punktlista lista av 3 element -->
+    <ul>
+      <li> punktlista 1 </li>
+      <li> punktlista 2 </li>
+      <li> punktlista 3 </li>
+    </ul>
+    <!-- Skapa en valfri lista av 3 element där varje element länkar till en hemsida -->
+    <ul>
+      <!-- List item -->
+          <li> <a href="https://www.punkdimage.com/black-kitty-choker-necklace.html" target="blank"> Chocker item 1</li>
+          <li> <a href="https://www.amazon.co.uk/Disease-String-Bikini-Japanese-Panties/dp/B07TJSX25N" target="blank"> Ahegao item 2</li>
+          <li> <a href="https://corpse.store/password" target="link"> Corpse Husband item 3 </a> </li>
+  </ul>
+
+    <!-- FORMULÄR -->
+    <form>
+    <!-- Skapa ett fält där användaren kan mata in text -->
+      <input type="text" placeholder="Skriv in text">
+      <br>
+    <!-- Skapa ett fält där användaren kan mata in känslig information (som lösenord) -->
+      <input type="password" placeholder="Hemlig text">
+      <br>
+    <!-- Skapa ett fält där användaren kan få hjälp i att förstå formatet som hen ska fylla i informationen i -->
+      <input type="text" placeholder="+46 XX XXX XX XX">
+      <br>
+    <!-- Skapa ett fält där användaren kan mata in mer än en rad av information (OBS: det är ett element ni inte hört om än) -->
+    <br>
+    <textarea id="story" name="story"
+          rows="5" cols="15" placeholder="Skriv in valfri text"> </textarea>
+    <!-- Skapa en dropdown-lista med alla 7 veckordagar att välja mellan -->
+    <br>
+    <br>
+    <select>
+        <option>Måndag</option><option>Tisdag</option><option>Onsdag</option><option>Torsdag</option><option>Fredag</option><option>Lördag</option><option>Söndag</option>
+      </select>
+    <br>
+    <!-- Skapa en knapp med valfri text -->
+    <br>
+    <button>Tryck på mig!  </button>
+    <br>
+    <br>
+    <!-- Skapa en till knapp med valfri text (men använd ett annat element än i förra lösningen) -->
+    <input type="submit" value="Detta är en knapp">
+    <br>
+    <br>
+    <!-- Skapa en knapp som är avstängd (ej klickbar) (OBS: det är ett attribut ni inte hört om än) -->
+    <button disabled="disabled"> Knapp avstängd! </button>
+    <br>
+    <br>
+    <!-- Skapa alla element som kan tänkas ingå i ett login-formulär, dvs. "användarnamn", "lösenord" och "login" fält -->
+     <pre>
+     <input type="text" placeholder="Skriv in användarnamn"> <input type="password" placeholder="Skriv in lösenord"> <input type="password" placeholder="Bekräfta lösenord"> <input type="submit" value="Logga in">
+     </pre>
+    <!--Skriv in en ny lösenordsflik så du kan trycka för att synliggöra och även inte-->
+    <br>
+    Password: <input type="password" value="FakePSW" id="myInput">
+
+    <!-- Ett element för att synliggöra och dölja lösenord -->
+    <input type="checkbox" onclick="myFunction()">Show Password
+    <br>
+    <!-- Modifiera login-formuläret du just skapade med att lägga till "labels" -->
+      <br>
+    <label for="Username"> username: </label>
+    <input id="Username" type="text" placeholder="Username">
+      <br>
+    <label for="Username"> username: </label>
+    <input id="Username" type="text" placeholder="Username">
+      <br>
+    <!-- Skapa en checkbox med label -->
+    <br>
+    <label for="Godkänn-användarvilkoren"> Godkänner du våra användarvilkor? </label>
+    <input id="Godkänn-användarvilkoren" type="checkbox">
+    <br>
+    <!-- Skapa tre radio-knappar. Testa sedan att tryck på dem. Se till att endast en går att klicka i (läs på https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio) -->
+    <br>
+    <p>Choose your Survivor:</p>
+    <div>
+      <input type="radio" id="Kate Denson" name="survivor" value="Kate Denson"
+             checked>
+      <label for="Kate Denson">Kate Denson</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Mikaela Reid" name="survivor" value="Mikaela Reid">
+      <label for="Mikaela Reid">Mikaela Reid</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Nancy Wheeler" name="survivor" value="Nancy Wheeler">
+      <label for="Nancy Wheeler">Nancy Wheeler</label>
+    </div>
+    <br>
+    <!-- Lägg nu en label runt varje radio-knapp. Se till att tryckandet på texten/labeln markerar knappen (precis som om du skulle tryckt på knappen) -->
+    <div>
+    XXX
+  </div>
+    <!--Ovanstående övning/uppgift är klar ^ -->
+    <div>
+      XXX
+    </div>
+  </form>
+    <!-- ICKE-SEMANTIK -->
+    <!-- Skapa en div med en div inuti -->
+    <div>
+      <div>XXX</div>
+    </div>
+    <!-- Skapa en div med en span inuti -->
+    <div>
+      <span>XXX   XXX   XXX</span>
+    </div>
+    <!-- Skapa en span med en span inuti -->
+    <span>
+      <span>XXX     XXX     XXX</span>
+    </span>
+
+    <!-- ÖVRIGT -->
+    <!-- Laborera med strukturella element som beskrivs i https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning -->
+    <!-- Läs om hur ni kan använda Emmet som verktyg inuti Vscode för att mer effektivt skriva HTML: https://code.visualstudio.com/docs/editor/emmet -->
+  </body>
+</html>
